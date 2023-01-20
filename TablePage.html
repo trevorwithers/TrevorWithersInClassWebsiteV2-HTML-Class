@@ -1,0 +1,99 @@
+<!doctype html>
+<!--Trevor Withers - In Class Website-->
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fun Facts Table - House Hippos With Us</title>
+        <link rel="stylesheet" type="text/css" href="./css/styling.css"/>
+        <script src="./scripts/TrevorWithersInClassWebsiteV2.js"></script>
+    </head>
+    <body onload="todaysDate()">
+        <h1>House Hippos With Us</h1>
+        <h2>Fun Facts Table</h2>
+        <div class="navflexcontainer">
+            <div class="navflexitem">
+                <a href = "index.html" title="Home Page">Home</a>
+            </div>
+            <div class="navflexitem">
+                <a href = "TablePage.html" title="Fun Facts Table">Table</a>
+            </div>
+            <div class="navflexitem">
+                <a href = "ImagesPage.html" title="Images of the Hippos">Images</a>
+            </div>
+            <div class="navflexitem">
+                <a href = "FormPage.html" title="Buy Your Own Hippo">Form</a>
+            </div>
+            <div class="flexitem">
+                &nbsp;
+            </div>
+            <div class="navflexitem">
+                <a target=_blank href="https://wwww.facebook.com">
+                    <img src="./imgs/facebook.jpg" height="20" width="20" alt="Facebook">
+                </a>
+            </div>
+            <div class="navflexitem">
+                <a target=_blank href="https://www.twitter.com">
+                    <img src="./imgs/twitter.jpg" height="20" width="20" alt="Twitter">
+                </a>
+            </div>
+        </div>
+        <div class="maincontainer">
+            <table id="changeTable">
+                <tr>
+                    <th colspan="5"> House Hippo Facts </th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Weight</th>
+                    <th>Amount Eaten Per Day</th>
+                    <th>Average Speed</th>
+                    <th>Life Span</th>
+                </tr>
+                <tr>
+                    <th>North American <span class="namestyle">House Hippo</span></th>
+                    <td> 5 Pounds</td>
+                    <td> 1.5 Pounds</td>
+                    <td> 1.5 kmh </td>
+                    <td> 10 Years </td>
+                </tr>
+                <tr>
+                    <th>South African <span class="namestyle">House Hippo</span></th>
+                    <td> 4 Pounds</td>
+                    <td> 1.25 Pounds</td>
+                    <td> 1.25 kmh </td>
+                    <td> 12 Years </td>
+                </tr>
+                <tr>
+                    <th>Norwegian <span class="namestyle">House Hippo</span></th>
+                    <td> 6 Pounds</td>
+                    <td> 2 Pounds</td>
+                    <td> 2 kmh </td>
+                    <td> 8 Years </td>
+                </tr>
+                <tr>
+                    <th>Polish <span class="namestyle">House Hippo</span></th>
+                    <td rowspan="2"> 3 Pounds</td>
+                    <td> 1 Pounds</td>
+                    <td> 1 kmh </td>
+                    <td> 18 Years </td>
+                </tr>
+                <tr>
+                    <th>Philipino <span class="namestyle">House Hippo</span></th>
+                    <td> 1.25 Pounds</td>
+                    <td> 1.1 kmh </td>
+                    <td> 22 Years </td>
+                </tr>
+            </table>
+            <div class="changetablebutton">
+                <button onclick="changeTableFunction()">Change Table</button>
+            </div>
+            
+        </div>
+        <div class="footercontainer">
+            <footer>
+                Trevor Withers  <span id="theDate"></span>| 
+                <a href = "mailto:trevor.withers@student.sl.on.ca">trevor.withers@student.sl.on.ca</a> 
+            </footer>
+        </div>
+    </body>
+</html>
